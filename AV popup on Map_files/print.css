@@ -1,0 +1,395 @@
+/**************************************************************************************************
+*
+* 	Name:			Print CSS
+* 	Author:			Paul Cowtan
+* 	Date Created:	22nd August 2012
+* 	Date Modified:	28th August 2012
+*
+**************************************************************************************************/
+#titleBar div a,
+#titleBar div ul,
+#globalHeader nav,
+#indexSearch,
+#sideContent,
+#topLinks,
+#cookiepolicy,
+#tabs,
+#mapcontrols,
+#monitorPdfLink,
+#timebarcontainer,
+.copyrightshadow,
+#globalFooter nav,
+#globalFooter p#infoBar,
+#globalFooter p.clear,
+hr,
+#viewBy,
+img.flag,
+a.expand,
+#content .listTable .title img,
+#filters,
+.paging,
+#searchResults input,
+#searchResults p span.right,
+#downloadLink,
+#dailySummary,
+#date-container,
+.simpleTabsNavigation,
+.headline-label,
+a.download,
+div.back2Top,
+a.back-to-top,
+.pdf-link-container,
+#forecastPdfLink {
+	display: none !important;
+}
+
+#worldCalendar .body-section-item {
+    border: none !important;
+}
+
+#worldCalendarkey{
+    clear: both;
+}
+
+#regionSummary,
+#countriesInRegion,
+#watersInRegion {
+    border: none !important;
+}
+
+body {
+	background: #fff;
+	color: #000;
+	margin: 10px;
+	font: 62.5%/1.3 Arial, Helvetica, sans-serif;
+}
+#skip-to-content {
+	position: absolute;
+	top: -3333px;
+	left: -3333px;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.fullClear {
+	float: left;
+	clear: both;
+	width: 100%;
+}
+.pdf {
+	background: url("/Content/SubscriptionSite/Css/Special/print/../Images/pdf_icon.png") no-repeat left top;
+	padding: 2px 0 0 20px;
+}
+h1 {
+	margin: 0 0 1.5em 0;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+h1 span {
+	margin: 0 0 0 20px;
+	font-size: 0.8em;
+}
+h1 em {
+	font-size: 0.8em;
+}
+h2 {
+	margin: 0 0 1em 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h3 {
+	margin: 0 0 0.5em 0;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+img {
+    border: 0;
+}
+#titleBar div.left p {
+	width: 300px;
+}
+#titleBar div.left img {
+	float: left;
+}
+#titleBar div.left p {
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0 0 0 22px;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+#content p,
+#content ul {
+	margin: 0 0 1em 0;
+	padding: 0;
+	font-size: 1.3em;
+}
+#content ol {
+    list-style-type:decimal;
+	margin: 0 0 1em 1.5em;
+	font-size: 1.3em;
+}
+#content ul {
+	margin-left: 1.5em;
+}
+#content a {
+	color: #000;
+	text-decoration: none;
+}
+#content .listTable,
+#content .listTable .body article {
+	margin: 0 0 2em 0;
+}
+#content .listTable .title h2 {
+	border-bottom: 1px solid #999;
+	padding-bottom: 0.25em;
+	margin-bottom: 0.5em;
+}
+#content .headlines .body h3,
+#content .headlinesByTime .body h3 {
+    font-size: 1.5em;
+}
+#content .catCode {
+	background: #888;
+	margin: 2px 0;
+	padding: 1px 4px;
+	color: #fff;
+	font-size: 0.8em;
+}
+#content .listTable .body article p {
+	margin: 0;
+	font-weight: bold;
+}
+#content .listTable .body article p.hidden {
+	margin: 0 0 1em 0;
+	font-weight: normal;
+}
+#content .subContent h2 {
+	font-size: 1.3em;
+}
+#content .listTable .body ul,
+#content .calendar {
+	list-style-type: none;
+}
+#content .listTable .body ul li,
+#content .calendar li {
+	border-bottom: 1px solid #999;
+	margin: 0 0 1em 0;
+	padding: 0 0 1em 0;
+}
+#content .listTable .body ul li .date,
+#content .calendar li .date {
+	color: #666;
+}
+#content .listTable .body ul li p,
+#content .calendar li p,
+#content .calendar li h3 {
+	font-size: 1em;
+	margin: 0;
+}
+#content .listTable .body ul li p,
+#content .calendar li p {
+	margin: 0.5em 0 0 0;
+}
+#content .threeColumnList h3 {
+	margin: 20px 0;
+}
+#content .threeColumnList .left {
+	width: 33%;
+}
+#content .twoColumnList .left {
+	width: 50%;
+}
+#content .threeColumnList ul,
+#content .twoColumnList ul {
+	margin: 1em 1.5em 2em 1.5em;
+}
+#content .threeColumnList h4,
+#content .riskRatings h4 {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+#content .riskRatings {
+	margin: 10px 0 20px 0;
+}
+#content .riskRatings > span {
+	float: left;
+	padding: 0 2px 5px 2px;
+	width: 51px;
+	font-size: 0.9em;
+}
+#content .riskRatings article {
+	border-bottom: 1px solid #999;
+	margin: 0 0 5px 0;
+}
+#content .riskRatings h4 {
+	margin-bottom: 0.5em;
+	font-size: 1.6em;
+}
+#content .riskRatings p {
+	margin: 0 0 5px 0;
+}
+#content .riskRatings p.country span,
+#content .calendar li .codes {
+	font-weight: bold;
+}
+#content #categoryKey {
+	list-style-type: none;
+}
+#content #scenarios p {
+	margin: 0;
+}
+#content #scenarios img {
+	margin: 0 10px 0 0;
+	height: 16px;
+	width: 30px;
+}
+#content #scenarios a {
+	float: left;
+}
+#content #scenarios .country {
+	width: 90px;
+}
+#searchResults div.fullClear {
+	margin: 2em 0 0 0;
+}
+#searchResults div.fullClear h3 {
+    border-bottom: 1px solid #999;
+}
+#searchResults div.fullClear a {
+	display: block;
+	margin: 0 0 1em 0;
+	font-size: 1.3em;
+}
+.form label {
+	display: block;
+	font-size: 1.3em;
+}
+.form input[type=text],
+.form input[type=password],
+.form textarea {
+	margin: 3px 0 20px 0;
+	padding: 2px;
+	width: 250px;
+}
+.form textarea {
+	height: 120px;
+	width: 500px;
+	font: 1.3em/1.3 Arial, Helvetica, sans-serif;
+}
+.form .button {
+	display: block;
+	margin: 0 0 20px 0;
+}
+#createReport ul {
+	list-style-type: none;
+	margin-left: 2em;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+#createReport ul li {
+	padding: 3px 0;
+}
+#createReport ul li ul {
+	list-style-type: circle;
+	margin: 0.25em 0 0 1.5em;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+#content .issues > div {
+	margin: 0 0 4em 0;
+}
+#content .issues h2 span {
+	display: block;
+}
+#content .issues .icons {
+	margin: 0 0 1em 0;
+}
+#content .issues ul {
+	margin-left: 3em;
+}
+#content .issues ul li {
+	margin-bottom: 1em;
+}
+#globalFooter {
+	margin: 30px 0 0 0;
+}
+#pdfElectionsMonitor .ratings .headings {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: right;
+}
+#pdfElectionsMonitor .ratings .headings span {
+	margin: 0 6% 0 0;
+}
+#pdfElectionsMonitor .ratings p {
+	float: left;
+	margin: 5px 0 0 0;
+    width: 100%;
+	font-size: 1.3em;
+}
+#pdfElectionsMonitor .ratings p.country {
+	font-weight: bold;
+    margin-bottom: 0.5em;
+}
+#pdfElectionsMonitor .ratings p span {
+	float: left;
+	width: 75%;
+}
+#pdfElectionsMonitor .ratings p img {
+	float: left;
+	margin: 3px 5% -3px 1%;
+}
+#content .riskRatings {
+	margin: 10px 0;
+	font-size: 1.2em;
+}
+#content .riskRatings.countryGroup {
+	border-bottom: 1px dotted #000;
+	margin: 0;
+}
+#content .riskRatings th {
+	font-size: 0.7em;
+    text-align: left;
+}
+#content .riskRatings .ratingWidth {
+    width: 51px;  
+}
+#content .riskRatings .fillWidth {
+    width: auto;
+}
+#content .riskRatings th.titleHidden {
+    text-indent: -9999px;
+}
+#content .riskRatings th h4 {
+    margin: 0;
+}
+#content .riskRatings img {
+	margin: 3px 0 -3px 0;
+    height: 15px;
+    width: 50px;
+}
+#content .serarator {
+	border-top: 1px dotted #000;
+    clear: both;
+    height: 5px;
+    width: 100%;
+}
+#content .advice,
+#content .evacLevel {
+	padding: 5px;
+}
+#content .evacLevel a {
+	padding: 0 4px;
+	color: #000;
+}
+#content .evacLevel span {
+	padding: 0 4px;
+	color: #000;
+}
